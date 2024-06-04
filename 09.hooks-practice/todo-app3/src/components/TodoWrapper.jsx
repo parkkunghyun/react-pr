@@ -6,6 +6,7 @@ import EditTodoForm from "./EditTodoForm";
 
 const TodoWrapper = () => {
   const [todos, setTodos] = useState([]);
+
   const addTodo = (todo) => {
     setTodos([
       ...todos,
